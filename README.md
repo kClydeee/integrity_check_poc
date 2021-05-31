@@ -6,5 +6,5 @@ POC of integrity check
 * call check_text_section() to check if there is corrupted binaries
 
 ## TODO:
-* VirtualAlloc() can fail and creating a separate page is vulnerable.
+* VirtualAlloc() can fail and creating a new page is vulnerable.
 * You can reduce the size of the table.
